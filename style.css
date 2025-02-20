@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #6eb37f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: #262626;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  width: 300px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+input[type="number"],
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+}
+
+input[type="radio"] {
+  margin: 5px;
+}
+
+button {
+  background-color: #ee4477;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d93c6a;
+}
+
+.operations label {
+  margin: 0 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
